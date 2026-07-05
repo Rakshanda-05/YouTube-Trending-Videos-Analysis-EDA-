@@ -41,8 +41,5 @@ pip install pandas numpy matplotlib seaborn textblob
 jupyter notebook EDA_Project1.ipynb
 ```
 
-## 👨‍💻 Author
-
-**Santosh Kothapu**
 
 If you found this project helpful, don't forget to ⭐ the repository.
