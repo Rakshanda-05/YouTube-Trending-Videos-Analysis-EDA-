@@ -1,13 +1,15 @@
 # 📊 YouTube Trending Videos Analytics
 
-An Exploratory Data Analysis (EDA) project that analyzes YouTube trending videos to uncover insights into video performance, audience engagement, sentiment, and category popularity. The project includes data preprocessing, sentiment analysis, and an interactive Tableau dashboard.
+An Exploratory Data Analysis (EDA) project on YouTube Trending Videos using **Python** and **Tableau** to analyze video performance, engagement, category trends, sentiment, and country-wise views.
 
-## 🚀 Features
+## 📌 Features
 - Data Cleaning & Preprocessing
 - Exploratory Data Analysis (EDA)
-- Sentiment Analysis using TextBlob
+- Sentiment Analysis (Positive, Neutral, Negative)
+- Monthly Trend Analysis
+- Top Categories Analysis
+- Country-wise Views
 - Interactive Tableau Dashboard
-- Trend, Category, and Country Analysis
 
 ## 🛠️ Tech Stack
 - Python
@@ -19,35 +21,28 @@ An Exploratory Data Analysis (EDA) project that analyzes YouTube trending videos
 - Tableau
 - Jupyter Notebook
 
-## 📊 Dashboard Highlights
-- Total Views & Likes
-- Monthly View Trends
-- Top Video Categories
-- Country-wise Views
-- Sentiment Distribution
+## 📊 Dashboard
 
-## 📂 Project Structure
-```
-YouTube-Trending-Analytics/
-├── EDA_Project1.ipynb
-├── Dashboard.jpeg
-├── README.md
-└── dataset.csv
-```
+![Dashboard](Dashboard.jpeg)
 
-## ▶️ Getting Started
+## 📂 Dataset
+
+The original CSV dataset is **larger than 25 MB**, so GitHub does not allow it to be uploaded directly. You can download it from the link below:
+
+**Dataset:**  
+`https://drive.google.com/file/d/1_SJTPPJoheuRYCJ_k41ZcQqTRaPKgWSq/view?usp=drive_link`
+
+## 🚀 How to Run
+
 ```bash
 git clone https://github.com/your-username/YouTube-Trending-Analytics.git
 cd YouTube-Trending-Analytics
 pip install pandas numpy matplotlib seaborn textblob
-jupyter notebook
+jupyter notebook EDA_Project1.ipynb
 ```
 
-## 📌 Key Insights
-- Trending views fluctuate across months.
-- Entertainment categories dominate YouTube trends.
-- Most trending videos have neutral sentiment.
-- User engagement varies by country and category.
+## 👨‍💻 Author
 
----
-⭐ If you found this project helpful, consider giving it a star!
+**Santosh Kothapu**
+
+If you found this project helpful, don't forget to ⭐ the repository.
